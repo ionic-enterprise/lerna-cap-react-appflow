@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "appId": "047887fa",
+      "root": "apps/customers",
+      "dependencyInstallCommand": "cd ../../ && npx lerna bootstrap && npx lerna run build --scope=@myorg/core"
+    },
+    {
+      "appId": "df1cd082",
+      "root": "apps/employees",
+      "dependencyInstallCommand": "cd ../../ && npx lerna bootstrap && npx lerna run build --scope=@myorg/core"
+    }
+  ]
+}

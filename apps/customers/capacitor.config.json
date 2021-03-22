@@ -1,0 +1,13 @@
+{
+  "appId": "me.horodyski.monorepo.customers",
+  "appName": "Eric Customers",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
