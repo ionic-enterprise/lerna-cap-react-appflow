@@ -1,4 +1,5 @@
 import typescript from 'rollup-plugin-typescript2';
+import image from '@rollup/plugin-image';
 import pkg from './package.json';
 
 const input = "src/index.ts";
@@ -12,6 +13,7 @@ const plugins = [
   typescript({
     typescript: require("typescript"),
   }),
+  image()
 ];
 
 export default [

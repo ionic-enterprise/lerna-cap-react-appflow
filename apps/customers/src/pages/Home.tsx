@@ -5,6 +5,7 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
+import { LogoImage } from "@myorg/core";
 import ExploreContainer from "../components/ExploreContainer";
 import "./Home.css";
 
@@ -22,7 +23,7 @@ const Home: React.FC = () => {
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer />
+        <LogoImage />
       </IonContent>
     </IonPage>
   );
