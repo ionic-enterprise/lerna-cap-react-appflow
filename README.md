@@ -146,7 +146,7 @@ Then populate `shared/core/tsconfig.json` with the following code:
     "target": "es2017",
     "sourceMap": true,
     "inlineSources": true,
-    "jsx": "react-jsx"
+    "jsx": "react"
   },
   "include": ["src/**/*"],
   "exclude": ["src/**/**.test.*"]
